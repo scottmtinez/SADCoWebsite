@@ -1,0 +1,48 @@
+/*
+  Global
+*/
+
+*{
+  box-sizing: border-box;
+  background-color: #282c34; 
+}
+
+html, body{
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 50px);
+}
+
+.App-footer{
+  margin-top: auto; 
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer{
+  margin: 15px;
+  color: #45B1E8;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px){
+  footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+}
